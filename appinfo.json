@@ -1,0 +1,22 @@
+{
+  "uuid": "630b6dbb-0f7e-4bd8-afed-10d72eb4b599",
+  "shortName": "minimalhearts",
+  "longName": "minimalhearts",
+  "companyName": "MakeAwesomeHappen",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "capabilities" : [
+	  "configurable"
+  ],
+  "appKeys": {
+	  "backgroundColor": 0,
+	  "heartColor" : 1
+  },
+  "resources": {
+    "media": []
+  }
+}
