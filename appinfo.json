@@ -1,8 +1,8 @@
 {
   "uuid": "630b6dbb-0f7e-4bd8-afed-10d72eb4b599",
-  "shortName": "minimalhearts",
-  "longName": "minimalhearts",
-  "companyName": "MakeAwesomeHappen",
+  "shortName": "Minimal Hearts",
+  "longName": "Minimal Hearts",
+  "companyName": "Willdorf",
   "versionLabel": "1.0",
   "sdkVersion": "3",
   "targetPlatforms": ["basalt"],
