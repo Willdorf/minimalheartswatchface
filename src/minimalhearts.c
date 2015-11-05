@@ -185,6 +185,8 @@ static void window_load(Window *window) {
 	  set_background_and_text_color(persist_read_int(KEY_BACKGROUND_COLOR));
   } else {
 	  background_color = GColorVividCerulean;
+	  window_set_background_color(window, background_color);
+	  text_layer_set_text_color(s_time_layer, gcolor_legible_over(background_color));
   }
 
   if (persist_read_int(KEY_HEART_COLOR)) {
