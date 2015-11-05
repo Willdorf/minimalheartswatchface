@@ -3,7 +3,7 @@ Pebble.addEventListener('ready', function() {
 });
 
 Pebble.addEventListener('showConfiguration', function() {
-	var url = 'http://e0acbef6.ngrok.io';
+	var url = 'http://armstrongwill.com/pebbleconfigurationpages/minimalhearts/index.html';
 
 	console.log('Showing configuration page: ' + url);
 
