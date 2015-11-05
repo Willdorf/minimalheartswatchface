@@ -31,8 +31,8 @@ function getAndStoreConfigData() {
 		heartColor : $heartColorPicker.val(),
 	};
 
-	localStorage.backgroundColor = options.backgroundColor;
-	localStorage.heartColor = options.heartColor;
+	localStorage.willdorfminimalheartsbackgroundColor = options.backgroundColor;
+	localStorage.willdorfminimalheartsheartColor = options.heartColor;
 
 	console.log('Got Options: ' + JSON.stringify(options));
 	return options;
@@ -43,8 +43,8 @@ function loadOptions() {
 	var $heartColorPicker = $('#heartColorPicker');
 
 	if (localStorage.backgroundColor) {
-		$backgroundColorPicker[0].value = localStorage.backgroundColor;
-		$heartColorPicker[0].value = localStorage.heartColor;
+		$backgroundColorPicker[0].value = localStorage.willdorfminimalheartsbackgroundColor;
+		$heartColorPicker[0].value = localStorage.willdorfminimalheartsheartColor;
 	}
 }
 
