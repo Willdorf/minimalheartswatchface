@@ -16,7 +16,8 @@
 	  "backgroundColor": 0,
 	  "heartColor" : 1,
 	  "KEY_TEMPERATURE" : 2,
-	  "KEY_CONDITIONS" : 3
+	  "KEY_CONDITIONS" : 3,
+	  "degreeOption" : 4
   },
   "resources": {
     "media": [
